@@ -131,6 +131,7 @@ p {
     background: rgb(0, 106, 80);
     padding: 17px 34px 17px 34px;
     border: none;
+    cursor: pointer;
 }
 
 /* Header CSS */
@@ -329,4 +330,58 @@ p {
 .recent-texts .btn {
     margin: 32px 0px;
     padding: 13px 26px;
+}
+
+/* DONATE CSS */
+.donate-container{
+    margin-top: 42px;
+    margin-bottom: 80px;
+}
+
+.donate-info h2{
+    text-align: center;
+}
+
+.donate-info p{
+    text-align: center;
+    margin: 32px 0;
+}
+
+.taka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.taka p{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin: 0px 24px;
+    padding: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.taka > p:hover{
+    background: rgb(198, 228, 214);
+}
+
+.another-amount{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24;
+}
+
+#other-amount{
+    padding: 20px 40px 20px 40px;
+    width: 1032px;
+    text-align: center;
+    border: none;
+    margin: 32px 0;
 }
