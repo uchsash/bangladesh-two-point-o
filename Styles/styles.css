@@ -135,6 +135,49 @@ p {
     cursor: pointer;
 }
 
+/* NAV CSS */
+
+nav{
+    padding: 40px 0 40px 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+.bd2{
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans", serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.sign-in{
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 15px 30px;
+    }
+
 /* Header CSS */
 .container {
     height: 560px;
@@ -273,6 +316,17 @@ p {
 .designation {
     margin: 4px 0;
     color: rgba(14, 14, 14, 0.6);
+}
+
+/* Pillars */
+.each-pillars{
+    height: 300px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px;
+    margin-bottom: 0;
 }
 
 /* Recent News CSS */
@@ -435,4 +489,25 @@ p {
     color: rgba(14, 14, 14, 0.7);
     line-height: 19px;
     letter-spacing: 0%;
+}
+
+/* SOCIAL CSS */
+
+.social{
+    margin-top: 80px;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    background-color: #fff;
+    width:100%;
+ }
+
+.social h3{
+    color: rgb(14, 14, 14);
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.social-img img{
+    margin-top: 32px;
+    margin-right: 32px;
 }
