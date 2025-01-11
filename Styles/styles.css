@@ -3,86 +3,86 @@
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
+
 .fira-sans-medium {
     font-family: "Fira Sans", serif;
     font-weight: 500;
     font-style: normal;
-  }
-  
+}
+
 .fira-sans-semibold {
     font-family: "Fira Sans", serif;
     font-weight: 600;
     font-style: normal;
-  }
-  
+}
+
 .fira-sans-bold {
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-style: normal;
-  }
-  
+}
+
 .fira-sans-extrabold {
     font-family: "Fira Sans", serif;
     font-weight: 800;
     font-style: normal;
-  }
-  
+}
+
 .fira-sans-black {
     font-family: "Fira Sans", serif;
     font-weight: 900;
     font-style: normal;
-  }
-  
+}
+
 .fira-sans-regular-italic {
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: italic;
-  }
-  
+}
+
 .fira-sans-medium-italic {
     font-family: "Fira Sans", serif;
     font-weight: 500;
     font-style: italic;
-  }
-  
+}
+
 .fira-sans-semibold-italic {
     font-family: "Fira Sans", serif;
     font-weight: 600;
     font-style: italic;
-  }
-  
+}
+
 .fira-sans-bold-italic {
     font-family: "Fira Sans", serif;
     font-weight: 700;
     font-style: italic;
-  }
-  
+}
+
 .fira-sans-extrabold-italic {
     font-family: "Fira Sans", serif;
     font-weight: 800;
     font-style: italic;
-  }
-  
+}
+
 .fira-sans-black-italic {
     font-family: "Fira Sans", serif;
     font-weight: 900;
     font-style: italic;
-  }
+}
 
-  /* Global CSS */
-  *{
+/* Global CSS */
+* {
     margin: 0;
     padding: 0;
-  }
+}
 
-  .fcolor{
+.fcolor {
     background-color: #f5f5f5;
 
-  }
+}
 
-  h2{
+h2 {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-size: 40px;
@@ -90,9 +90,19 @@
     line-height: 48px;
     letter-spacing: 0%;
     text-align: left;
-  }
+}
 
-  h5{
+h3 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+h5 {
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
     font-size: 20px;
@@ -100,9 +110,9 @@
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
-  }
+}
 
-  p{
+p {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
@@ -110,9 +120,9 @@
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
-  }
+}
 
-  .btn{
+.btn {
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
@@ -121,10 +131,10 @@
     background: rgb(0, 106, 80);
     padding: 17px 34px 17px 34px;
     border: none;
-  }
+}
 
-  /* Header CSS */
-  .container{
+/* Header CSS */
+.container {
     height: 560px;
     border-radius: 24px;
     background-color: rgb(198, 228, 214);
@@ -135,51 +145,56 @@
     justify-content: center;
     align-items: center;
     padding: 80px 100px;
-  }
+    margin-left: 80px;
+    margin-right: 80px;
+}
 
-  .info{
+.info {
     max-width: 622px;
     margin-right: 64px;
-  }
+}
 
-  .info h4{
+.info h4 {
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
     line-height: 29px;
     letter-spacing: 0%;
     text-align: left;
     margin: 16px 0px;
-  }
+}
 
-  .info h1{
+.info h1 {
     color: rgb(14, 14, 14);
     font-size: 56px;
     line-height: 67px;
     letter-spacing: 0%;
     text-align: left;
     margin: 16px 0px;
-  }
-
-  .hero-image img{
-    width: 474.03px;
-    height: 329.21px;
-  }
-
-  /* Vision CSS */
-.card-box{
-    margin-top: 80px;
 }
 
-.vision p{
+.hero-image img {
+    width: 474.03px;
+    height: 329.21px;
+}
+
+/* Vision CSS */
+.card-box {
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.vision p {
     margin-top: 24px;
 }
 
-.cards{
+.cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.each-card{
+
+.each-card {
     background: rgba(84, 144, 245, 0.2);
     width: 410px;
     box-sizing: border-box;
@@ -193,44 +208,44 @@
     margin: 32px 0;
 }
 
-.card-icon img{
+.card-icon img {
     width: 49.66px;
     height: 53.09px;
 }
 
-.each-card h5{
+.each-card h5 {
     margin: 12px 0;
 }
 
-.each-card p{
+.each-card p {
     margin: 12px 0;
 }
 
-#c-color2{
+#c-color2 {
     background: rgb(198, 228, 214);
 }
 
-#c-color3{
+#c-color3 {
     background: rgb(247, 235, 207);
 }
 
-#cbtn1{
+#cbtn1 {
     background: rgb(84, 144, 245);
     padding: 11px 20px 11px 20px;
 }
 
-#cbtn2{
+#cbtn2 {
     background: rgb(9, 161, 92);
     padding: 11px 20px 11px 20px;
 }
 
-#cbtn3{
+#cbtn3 {
     background: rgb(255, 194, 57);
     padding: 11px 20px 11px 20px;
 }
 
 /* Quote CSS */
-.quote{
+.quote {
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -241,18 +256,77 @@
     padding: 48px 24px 48px 24px;
 }
 
-.main-quote{
+.main-quote {
     margin: 12px 0;
     color: rgba(14, 14, 14, 0.8);
     /* background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
     background-size: 50px 50px; */
 }
-.quote h5{
+
+.quote h5 {
     color: rgba(14, 14, 14, 0.8);
     font-weight: 600;
 }
-.designation{
+
+.designation {
     margin: 4px 0;
     color: rgba(14, 14, 14, 0.6);
+}
+
+/* Recent News CSS */
+.recent-news-container {
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.recent-info p{
+    margin: 32px 0;
+}
+
+.each-recent-news {
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.recent-mimage img{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+
+.recent-texts > img {
+    width: 134px;
+    height: 40px;
+}
+
+.recent-datetime {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.recent-datetime time {
+    margin-right: 12px;
+}
+
+.recent-texts p {
+    margin: 12px 0px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.recent-texts .btn {
+    margin: 32px 0px;
+    padding: 13px 26px;
 }
