@@ -137,24 +137,24 @@ p {
 
 /* NAV CSS */
 
-nav{
+nav {
     padding: 40px 0 40px 0;
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: space-between;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
 }
 
-nav ul a{
+nav ul a {
     text-decoration: none;
 }
 
-.bd2{
+.bd2 {
     color: rgb(14, 14, 14);
     font-family: "Fira Sans", serif;
     font-size: 32px;
@@ -164,7 +164,7 @@ nav ul a{
     text-align: left;
 }
 
-.sign-in{
+.sign-in {
     color: rgb(0, 106, 80);
     font-family: Fira Sans;
     font-size: 18px;
@@ -176,7 +176,7 @@ nav ul a{
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
     padding: 15px 30px;
-    }
+}
 
 /* Header CSS */
 .container {
@@ -268,7 +268,7 @@ nav ul a{
 }
 
 #c-color2 {
-        background: rgb(198, 228, 214);
+    background: rgb(198, 228, 214);
 }
 
 #c-color3 {
@@ -319,7 +319,7 @@ nav ul a{
 }
 
 /* Pillars */
-.each-pillars{
+.each-pillars {
     height: 300px;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -336,7 +336,7 @@ nav ul a{
     margin-top: 80px;
 }
 
-.recent-info p{
+.recent-info p {
     margin: 32px 0;
 }
 
@@ -351,13 +351,12 @@ nav ul a{
     margin-bottom: 32px;
 }
 
-.recent-mimage img{
-    width: 408px;
+.recent-mimage img {
     height: 306px;
     border-radius: 24px;
 }
 
-.recent-texts > img {
+.recent-texts>img {
     width: 134px;
     height: 40px;
 }
@@ -387,7 +386,7 @@ nav ul a{
 }
 
 /* DONATE CSS */
-.donate-container{
+.donate-container {
     margin-top: 42px;
     margin-bottom: 80px;
     display: flex;
@@ -396,22 +395,22 @@ nav ul a{
     align-items: center;
 }
 
-.donate-info h2{
+.donate-info h2 {
     text-align: center;
 }
 
-.donate-info p{
+.donate-info p {
     text-align: center;
     margin: 32px 0;
 }
 
-.taka{
+.taka {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.taka p{
+.taka p {
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -424,11 +423,19 @@ nav ul a{
     line-height: 48px;
 }
 
-.taka > p:hover{
+.taka>p:nth-child(2) {
     background: rgb(198, 228, 214);
 }
 
-.another-amount{
+.taka:hover>p {
+    background: #fff;
+}
+
+.taka>p:hover {
+    background: rgb(198, 228, 214);
+}
+
+.another-amount {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -436,7 +443,7 @@ nav ul a{
     gap: 24;
 }
 
-#other-amount{
+#other-amount {
     padding: 20px 40px 20px 40px;
     width: 1032px;
     text-align: center;
@@ -445,34 +452,35 @@ nav ul a{
 }
 
 /* Subscribe CSS */
-.subscription-container{
+.subscription-container {
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
 }
 
-.subcription-info{
+.subcription-info {
     border-radius: 24px;
     background: rgb(198, 228, 214);
     padding: 80px 100px 80px 100px;
     width: 1080px;
 
 }
-.subcription-info h2{
+
+.subcription-info h2 {
     text-align: center;
 }
 
-.subcription-info p{
+.subcription-info p {
     text-align: center;
     margin: 32px 0;
 }
 
-.newsletter{
+.newsletter {
     text-align: center;
 }
 
-.newsletter input{
+.newsletter input {
     padding: 18px 40px 18px 40px;
     width: 600px;
     border-radius: 8px 0px 0px 8px;
@@ -480,12 +488,12 @@ nav ul a{
     border: none;
 }
 
-.newsletter button{
+.newsletter button {
     border-radius: 0px 8px 8px 0px;
-    margin-left: -10px;
+    margin-left: -6px;
 }
 
-.no-spam{
+.no-spam {
     color: rgba(14, 14, 14, 0.7);
     line-height: 19px;
     letter-spacing: 0%;
@@ -493,21 +501,21 @@ nav ul a{
 
 /* SOCIAL CSS */
 
-.social{
+.social {
     margin-top: 80px;
     text-align: center;
     padding: 50px 0px 50px 0px;
     background-color: #fff;
-    width:100%;
- }
+    width: 100%;
+}
 
-.social h3{
+.social h3 {
     color: rgb(14, 14, 14);
     text-align: center;
     margin-bottom: 32px;
 }
 
-.social-img img{
+.social-img img {
     margin-top: 32px;
     margin-right: 32px;
 }
